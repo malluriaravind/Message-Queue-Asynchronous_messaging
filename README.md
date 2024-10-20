@@ -19,7 +19,7 @@ The producer is responsible for generating a large number of messages (in this c
 - Messages are marked as **persistent** by setting the `delivery_mode=2` to ensure they are stored to disk, which provides durability in case of broker failures.
 - The **pika** library is used to establish the connection and handle the message publishing.
 
-![Producer Queue](producer-queue.PNG)
+![Producer Queue](queue-overview.PNG)
 
 ---
 
